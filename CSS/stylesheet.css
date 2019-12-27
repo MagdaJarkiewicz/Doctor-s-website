@@ -1,18 +1,42 @@
 #navbar {
     position: fixed;
         width: 100%;
-    background-color: #8C8D95;
     margin-top: 0;
     margin-bottom: 10px;
     padding: 20px;
-    font-family: 'Mansalva', cursive;
+    font-family: Merriweather;
     text-decoration:none;
     text-align: center;
-    border: 3px solid #336699;
+    /* border: 3px solid; */
 }
 
 main {
   padding: 60px;
+  font-family: Merriweather;
+  line-height: normal;
+}
+
+#profilePic {
+  border-radius: 100%;
+  float: left;
+  height:12.2em;
+  width:auto;
+  margin: 10px;
+}
+
+#aboutMe {
+  width: 50%;
+  text-align: justify;
+  margin: 10px;
+};
+
+#intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
 }
 
 a:hover{
@@ -25,7 +49,7 @@ h1 {
 
 a{
   text-decoration: none;
-  color: #FFFFFF;
+  color: grey;
 }
 
 #navbar li {
@@ -46,6 +70,7 @@ h3 {
   font-family: 'Roboto';
   font-weight: bold;
   font-size: 1.2em;
+  margin-top: 20px;
 }
 
 footer {
