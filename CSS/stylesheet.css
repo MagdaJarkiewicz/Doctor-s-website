@@ -1,27 +1,32 @@
+
 #navbar {
     position: fixed;
         width: 100%;
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin: 80;
     padding: 20px;
-    font-family: Merriweather;
     text-decoration:none;
-    text-align: center;
+    font-family: Nunito, sans-serif;
+    display: flex;
+    justify-content:center;
     /* border: 3px solid; */
 }
 
+nav li {
+  padding: 5px;
+  margin: 5px;
+}
 main {
   padding: 60px;
-  font-family: Merriweather;
+  font-family: Nunito, sans-serif;
   line-height: normal;
 }
 
 #profilePic {
   border-radius: 100%;
   float: left;
-  height:12.2em;
+  height:15em;
   width:auto;
-  margin: 10px;
+  margin: 20px;
 }
 
 #aboutMe {
@@ -58,31 +63,29 @@ a{
   padding: 0 20px;
 }
 
-.redbackground {
-  background-color: green;
-}
-
-p {
-  font-family: 'Roboto', sans-serif;
-}
 
 h3 {
-  font-family: 'Roboto';
-  font-weight: bold;
-  font-size: 1.2em;
+  font-weight: 800;
+  font-size: 2em;
   margin-top: 20px;
+  letter-spacing:0.05em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 footer {
     background-color: #8C8D95;
     margin-top: 0;
-    padding: 20px;
-    font-family: 'Roboto';
+    padding: 40px;
+    font-family: 'Nunito', sans-serif;
     text-decoration:none;
-    text-align: left;
-    border: 3px solid #336699;
+    display: flex;
+    justify-content: space-around;
 }
 
 #C {
-  text-align: left;
+  /* justify-content: space-between; */
 }
