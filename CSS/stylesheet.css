@@ -1,32 +1,77 @@
+/* colors:
+#031926
+#468189
+#77ACA2
+#9DBEBB
+#F4E9CD
+ */
+
+nav {
+  background-color: #77ACA2;
+}
 
 #navbar {
     position: fixed;
-        width: 100%;
-    margin: 80;
-    padding: 20px;
+    background-color: #FFF;
+    width: 90%;
+    height: 30px;
+    padding:20px;
     text-decoration:none;
     font-family: Nunito, sans-serif;
     display: flex;
-    justify-content:center;
-    /* border: 3px solid; */
+    justify-content:flex-end;
+    color: #031926;
 }
 
-nav li {
-  padding: 5px;
-  margin: 5px;
+#listaChorob {
+  margin: 2em;
+  height: 15em;
+  width: 50%;
 }
+
+#wCzymMogePomoc {
+  columns: 2;
+}
+
+#wCzymMogePomoc li:before {
+  content: '✓';
+  color: #7CC85F;
+  font-weight: bold;
+}
+
 main {
   padding: 60px;
   font-family: Nunito, sans-serif;
   line-height: normal;
+  color: #031926;
 }
 
 #profilePic {
   border-radius: 100%;
   float: left;
+  margin-top: 100px;
   height:15em;
   width:auto;
   margin: 20px;
+}
+
+#tytul {
+  padding-top: 2em;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+    display: block;
+    overflow: hidden;
+    border-style:solid;
+    width: 15em;
+    border-width: 2px;
+    border-color: #468189;
+    background-color: #468189;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 #aboutMe {
@@ -45,16 +90,12 @@ main {
 }
 
 a:hover{
-  color: navy;
-}
-
-h1 {
-  font-size: 4em;
+  color: #468189;
 }
 
 a{
   text-decoration: none;
-  color: grey;
+  color: #031926;
 }
 
 #navbar li {
@@ -64,7 +105,7 @@ a{
 }
 
 
-h3 {
+h1 {
   font-weight: 800;
   font-size: 2em;
   margin-top: 20px;
@@ -77,13 +118,14 @@ h2 {
 }
 
 footer {
-    background-color: #8C8D95;
+    background-color: #468189;
     margin-top: 0;
     padding: 40px;
     font-family: 'Nunito', sans-serif;
     text-decoration:none;
     display: flex;
     justify-content: space-around;
+    color: #FFF;
 }
 
 #C {
