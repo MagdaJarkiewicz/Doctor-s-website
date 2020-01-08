@@ -25,10 +25,14 @@ nav {
 
 #listaChorob {
   margin: 2em;
+  padding: 2em;
   height: 15em;
   width: 50%;
 }
 
+.hr2 {
+  width: 65em;
+}
 #wCzymMogePomoc {
   columns: 2;
 }
@@ -74,20 +78,21 @@ hr {
     margin-left: 0;
 }
 
+#oMnie {
+  margin: 3em;
+}
+
 #aboutMe {
-  width: 50%;
+  padding: 1em;
   text-align: justify;
-  margin: 10px;
+  column-count: 2;
 };
 
-#intro {
-  display: flex;
-  justify-content: space-between;
-}
+#doswiadczenie {
+  margin: 3em;
+};
 
-.flex {
-  display: flex;
-}
+
 
 a:hover{
   color: #468189;
@@ -117,17 +122,13 @@ h2 {
   font-size: 1.3em;
 }
 
+
 footer {
     background-color: #468189;
     margin-top: 0;
-    padding: 40px;
+    padding: 30px 30px 30px 100px;
+    height: 5em;
     font-family: 'Nunito', sans-serif;
     text-decoration:none;
-    display: flex;
-    justify-content: space-around;
     color: #FFF;
-}
-
-#C {
-  /* justify-content: space-between; */
-}
+  };
