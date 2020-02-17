@@ -7,21 +7,39 @@
 please change
  */
 
-nav {
-  background-color: #77ACA2;
-}
 
 #navbar {
     position: fixed;
     background-color: #FFF;
-    width: 90%;
+    width: 100%;
     height: 30px;
-    padding:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    margin-right: 100px;
     text-decoration:none;
     font-family: Nunito, sans-serif;
     display: flex;
     justify-content:flex-end;
     color: #031926;
+    font-weight: bold;
+    z-index: 2;
+}
+
+#intro {
+  min-height: 19em;
+  background-image: url("../images/greySofaCopy.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 4em;
+  background-size: 100%;
+  position: relative;
+  z-index: 0;
+}
+#introNapis {
+  position: absolute;
+  background: #FFFFFFE6;
+  padding: 2em;
 }
 
 #listaChorob {
@@ -59,14 +77,6 @@ main {
   width:auto;
   margin: 20px;
 }
-
-#tytul {
-  padding-top: 2em;
-  height: 15em;
-  display: flex;
-  flex-direction: column;
-}
-
 hr {
     display: block;
     overflow: hidden;
@@ -93,8 +103,6 @@ hr {
   margin: 3em;
 };
 
-
-
 a:hover{
   color: #468189;
 }
@@ -110,7 +118,6 @@ a{
   padding: 0 20px;
 }
 
-
 h1 {
   font-weight: 800;
   font-size: 2em;
@@ -122,7 +129,6 @@ h2 {
   font-weight: bold;
   font-size: 1.3em;
 }
-
 
 footer {
     background-color: #468189;
