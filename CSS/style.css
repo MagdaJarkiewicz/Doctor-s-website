@@ -49,7 +49,7 @@ nav li:hover {
 }
 
 #listaChorob {
-  margin: 2em;
+  margin: 2em 0;
   padding: 2em;
   height: 15em;
   width: 50%;
@@ -60,6 +60,7 @@ nav li:hover {
 }
 #wCzymMogePomoc {
   columns: 2;
+  font-size: 1em;
 }
 
 #wCzymMogePomoc li:before {
@@ -138,11 +139,11 @@ h2 {
 
 .opinie {
   background-color: #0795a1;
-  padding: 2em;
-  column-count: 2;
+  padding: 3em 10em;
   font-weight: 600;
   line-height: 2;
   color: #FFF;
+  font-size: 1.3em;
 }
 
 footer {
