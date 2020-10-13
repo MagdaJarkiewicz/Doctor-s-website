@@ -14,13 +14,14 @@ sofa #9b9390
     position: fixed;
     background-color: #FFF;
     width: 100%;
-    height: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 150px;
-    margin-right: 100px;
+    height: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 1.5vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
     text-decoration:none;
     font-family: Nunito, sans-serif;
+    font-size: 1em;
     display: flex;
     justify-content:flex-end;
     color: #031926;
@@ -29,15 +30,15 @@ sofa #9b9390
 }
 
 nav li:hover {
-    text-decoration: underline;
+    text-decoration-line: underline ;
 }
 
 #intro {
-  min-height: 19em;
+  min-height: 25vw;
   background-image: url("../Images/blueSofaV.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 4em;
+  padding: 8vw;
   background-size: 100%;
   position: relative;
   z-index: 0;
@@ -45,26 +46,26 @@ nav li:hover {
 #introNapis {
   position: absolute;
   background: #FFFFFFE6;
-  padding: 3em;
+  padding: 2vw 2vw 4vw 2vw;
 }
 
 #listaChorob {
-  margin: 2em 0;
-  padding: 2em;
-  height: 15em;
+  margin: 2vw 0;
+  padding: 2vw;
+  height: 15vw;
   width: 50%;
 }
 
 #bukowanie {
   background-color: #9b9390;
-  height: 20em;
-  width:25em;
+  height: 20vw;
+  width:25vw;
   color: #FFF;
 }
 
 button {
-  width: 10em;
-  height: 5em;
+  width: 10vw;
+  height: 5vw;
   display: inline;
   border-radius: 20%;
   background-color: #0795a1;
@@ -90,7 +91,8 @@ button {
 }
 
 main {
-  padding: 60px;
+  width: 95%;
+  padding: 1vw 1vw;
   font-family: Nunito, sans-serif;
   line-height: normal;
   color: #031926;
@@ -100,16 +102,16 @@ main {
   border-radius: 100%;
   float: left;
   margin-top: 100px;
-  height:15em;
+  height:15vw;
   width:auto;
-  margin: 20px;
+  margin: 2vw;
 }
 hr {
     display: block;
     overflow: hidden;
     border-style:solid;
     width: 80%;
-    border-width: 2px;
+    border-width: 0.15vw;
     border-color: #0795a1;
     background-color: #0795a1;
     padding-left: 0;
@@ -117,17 +119,17 @@ hr {
 }
 
 #oMnie {
-  margin: 3em;
+  margin: 3vw;
 }
 
 #aboutMe {
-  padding: 1em;
+  padding: 1vw;
   text-align: justify;
   column-count: 2;
 };
 
 #doswiadczenie {
-  margin: 3em;
+  margin: 3vw;
 };
 
 a:hover{
@@ -142,19 +144,19 @@ a{
 #navbar li {
   display: inline-block;
   color: #FFFFFF;
-  padding: 0 20px;
+  padding: 0 2vw;
 }
 
 h1 {
   font-weight: 800;
-  font-size: 2.3em;
-  margin-top: 20px;
+  font-size: 1.8em;
+  margin-top: 2vw;
   letter-spacing:0.05em;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 .opinie {
@@ -169,7 +171,7 @@ h2 {
 footer {
     background-color: #9b9390;
     margin-top: 0;
-    padding: 30px 30px 30px 100px;
+    padding: 3vw 3vw 3vw 3vw;
     height: 5em;
     font-family: 'Nunito', sans-serif;
     text-decoration:none;
