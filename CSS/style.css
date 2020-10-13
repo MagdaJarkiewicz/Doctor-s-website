@@ -28,6 +28,10 @@ sofa #9b9390
     font-weight: bold;
     z-index: 2;
 }
+a{
+  text-decoration: none;
+  color: #031926;
+}
 
 nav li:hover {
     text-decoration-line: underline ;
@@ -46,7 +50,19 @@ nav li:hover {
 #introNapis {
   position: absolute;
   background: #FFFFFFE6;
-  padding: 2vw 2vw 4vw 2vw;
+  padding: 2vw 2vw 2vw 2vw;
+}
+
+#zabukuj-top {
+  margin-top: 1vw;
+  width: 18vw;
+  height: 5vw;
+  box-shadow: 2px 2px #9b9390;
+  color: #FFF;
+}
+
+.zabukujButton {
+  color: #FFF;
 }
 
 #listaChorob {
@@ -67,7 +83,7 @@ button {
   width: 10vw;
   height: 5vw;
   display: inline;
-  border-radius: 20%;
+  /*border-radius: 20%;*/
   background-color: #0795a1;
   border-style: hidden;
   font-size: 1.2em;
@@ -134,11 +150,6 @@ hr {
 
 a:hover{
   color: #468189;
-}
-
-a{
-  text-decoration: none;
-  color: #031926;
 }
 
 #navbar li {
