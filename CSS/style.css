@@ -110,6 +110,11 @@ button {
 #wCzymMogePomoc {
   columns: 2;
   font-size: 1em;
+  background-color: #9b9390;
+  height: 25vw;
+  width:30vw;
+  color: #FFF;
+  padding: 1vw;
 }
 
 #wCzymMogePomoc li:before {
